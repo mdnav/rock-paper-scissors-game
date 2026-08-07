@@ -17,7 +17,7 @@ const genCompChoice = () => {
 
 const drawGame = () => {
   msg.innerText = "Game was Draw. Play again.";
-  msg.style.backgroundColor = "#081b31";
+  msg.style.backgroundColor = "#1f2937";
 };
 
 const showWinner = (userWin, userChoice, compChoice) => {
@@ -25,12 +25,12 @@ const showWinner = (userWin, userChoice, compChoice) => {
     userScore++;
     userScorePara.innerText = userScore;
     msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
-    msg.style.backgroundColor = "green";
+    msg.style.backgroundColor = "#064e3b";
   } else {
     compScore++;
     compScorePara.innerText = compScore;
     msg.innerText = `You lost. ${compChoice} beats your ${userChoice}`;
-    msg.style.backgroundColor = "red";
+    msg.style.backgroundColor = "#7f1d1d";
   }
 };
 
@@ -69,7 +69,7 @@ function resetScores(){
   compScore = 0;
   if(userScorePara) userScorePara.innerText = userScore;
   if(compScorePara) compScorePara.innerText = compScore;
-  if(msg){ msg.innerText = 'Scores reset. Play again!'; msg.style.backgroundColor = '#081b31'; }
+  if(msg){ msg.innerText = 'Scores reset. Play again!'; msg.style.backgroundColor = '#1f2937'; }
 }
 
 if(resetBtn){ resetBtn.addEventListener('click', resetScores); }
