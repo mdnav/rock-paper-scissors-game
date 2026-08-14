@@ -497,7 +497,7 @@ Passionate about building modern web applications and continuously developing sk
 
 ### GitHub
 
-https://github.com/mohammadnaveed1701-source
+https://github.com/mdnav
 
 ### LinkedIn
 
