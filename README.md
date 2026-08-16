@@ -501,7 +501,7 @@ https://github.com/mdnav
 
 ### LinkedIn
 
-https://www.linkedin.com/in/mohammad-naveed-5294b2333/
+https://www.linkedin.com/in/mdnav/
 
 ---
 
